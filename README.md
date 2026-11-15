@@ -28,9 +28,9 @@ This starter project installs all three services on **one Ubuntu EC2 instance**.
 ansible-monitoring-stack-automation/
 ├── ansible.cfg
 ├── inventory/
-│   └── hosts.ini.example
-├── group_vars/
-│   └── all.yml
+│   ├── hosts.ini.example
+│   └── group_vars/
+│       └── all.yml
 ├── playbooks/
 │   └── site.yml
 ├── templates/
