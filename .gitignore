@@ -1,0 +1,14 @@
+# Local inventory and SSH keys
+inventory/hosts.ini
+*.pem
+*.key
+
+# Ansible generated files
+*.retry
+.retry/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.aws/
