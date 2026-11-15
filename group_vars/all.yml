@@ -1,8 +1,0 @@
----
-# Versions are intentionally configurable.
-prometheus_version: "2.52.0"
-node_exporter_package: prometheus-node-exporter
-prometheus_listen_address: "0.0.0.0:9090"
-node_exporter_listen_address: "127.0.0.1:9100"
-grafana_apt_key_url: "https://apt.grafana.com/gpg.key"
-grafana_apt_repo: "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main"
